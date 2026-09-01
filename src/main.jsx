@@ -32,7 +32,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <AppErrorBoundary>
       <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename="/expense-tracker">
           <App />
         </BrowserRouter>
       </Provider>
